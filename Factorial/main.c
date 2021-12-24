@@ -15,3 +15,4 @@ int main()
         printf("%d sayisinin faktoriyeli : %llu'dir.",num, fact);
 return 0
 }
+
