@@ -1,3 +1,3 @@
-# FourOperations
+# Here my practice codes
 
-Taking two numbers from user and operate them on four basic operation
+These are codes which i have wrote myself for learning and improving in programming 
