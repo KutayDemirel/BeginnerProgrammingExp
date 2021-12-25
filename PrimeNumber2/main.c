@@ -7,8 +7,8 @@ int main()
 
         printf("Please Enter a number   :");
         scanf("%d",&num);
-        for(i;i<sayi;i++){
-            if(sayi%i==0){
+        for(i;i<num;i++){
+            if(num%i==0){
                 break;
             }
         }
