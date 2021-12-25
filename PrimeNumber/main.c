@@ -1,7 +1,12 @@
-    int i, num, isPrime;
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+        int i, num, isPrime;
 
         isPrime =1;
-        printf("Bir sayi giriniz:");
+        printf("Please enter number:");
         scanf("%d",&num);
 
         for(i=2; i<=num/2; i++){
@@ -13,11 +18,11 @@
         }
 
         if(isPrime ==1 && num>1)
-            printf("Prime number");
+            printf("%d is Prime number",num);
         else if(isPrime ==0 || num ==0 )
-            printf("is not Prime Number");
+            printf("%d is not Prime Number",num);
         else
-            printf("negatif sayi girdiniz");
+            printf("You entered negative number");
 
     return 0;
 }
