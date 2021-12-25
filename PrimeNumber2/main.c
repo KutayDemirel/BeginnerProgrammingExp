@@ -13,7 +13,7 @@ int main()
             }
         }
         printf("Number %d",i);
-        if(sayi ==i)
+        if(num ==i)
             printf(" is Prime Number");
         else
             printf(" is not Prime Number");
